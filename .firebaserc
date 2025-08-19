@@ -1,0 +1,8 @@
+{
+  "projects": {
+    "default": "mayor-schedule",
+    "firebase deploy --only functions": "mayor-schedule"
+  },
+  "targets": {},
+  "etags": {}
+}
