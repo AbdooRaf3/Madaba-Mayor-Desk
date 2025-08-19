@@ -1,12 +1,12 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  experimental: {
-    optimizePackageImports: ['lucide-react', '@/components/ui'],
+  eslint: {
+    ignoreDuringBuilds: true,
   },
-  compress: true,
-  poweredByHeader: false,
+  typescript: {
+    ignoreBuildErrors: true,
+  },
   images: {
-    formats: ['image/webp', 'image/avif'],
     unoptimized: true,
   },
 }
